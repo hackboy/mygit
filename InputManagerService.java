@@ -90,9 +90,7 @@ import java.util.HashSet;
 import libcore.io.Streams;
 import libcore.util.Objects;
 
-/*
- * Wraps the C++ InputManager and provides its callbacks.
- */
+//和输入相关的一些东西
 public class InputManagerService extends IInputManager.Stub
         implements Watchdog.Monitor, DisplayManagerService.InputManagerFuncs {
     static final String TAG = "InputManager";
